@@ -9,24 +9,38 @@
     <title>To Do List</title>
   </head>
   <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>To-Do List</h1>
+      </div>
+    </div>
     <div class="container">
-      <h1>To-Do List</h1>
       <form class="toDoForm">
-        <label for="nameInput">To Do: </label>
-        <input id="nameInput" type="text" value=""><
-        <label for="dueDateInput">Due Date</label>
-        <input id="dueDateInput" type="text" value="">
-        <label for="descriptionInput">Description</label>
-        <input id="descriptionInput" type="text" value="">
+        <div class="row">
+          <div class="col-md-4">
+            <label for="nameInput">To Do: </label><br>
+            <input id="nameInput" type="text" value="">
+          </div>
+          <div class="col-md-4">
+            <label for="dueDateInput">Due Date</label><br>
+            <input id="dueDateInput" type="text" value="">
+          </div>
+          <div class="col-md-4">
+            <label for="descriptionInput">Description</label><br>
+            <input id="descriptionInput" type="text" value="">
+          </div>
+
+        </div>
         <button id="toDoFormButton" type="submit" name="button">Add!</button>
       </form>
+      <hr>
       <div class="row">
-        <div class="col-md-3 col-sm-offset-3">
+        <div class="col-xs-3 col-xs-offset-3">
           <h3>List</h3>
           <ul class="toDoList">
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-xs-3">
           <h3>Detail</h3>
           <ul class="detailList">
           </ul>

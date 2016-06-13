@@ -1,11 +1,28 @@
+.jumbotron {
+  background-image: url(../img/list.jpg);
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  color: rgba(5, 5, 5, 0.8);
+
+}
+
 h1{
   text-align: center;
+  text-shadow: 1px 1px 25px white;
 }
 
 h3{
   text-align: center;
 }
 
+button{
+  margin-top: 25px;
+}
+
+label{
+  margin-top: 10px;
+}
 .toDoForm{
   text-align: center;
 }
