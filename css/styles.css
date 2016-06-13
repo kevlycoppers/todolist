@@ -9,3 +9,12 @@ h3{
 .toDoForm{
   text-align: center;
 }
+
+.toDoItem {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.toDoItem:hover {
+  text-decoration: underline;
+}

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.0.0"></script>
+    <script src="js/jquery-3.0.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>To Do List</title>
   </head>
@@ -13,18 +13,23 @@
       <h1>To-Do List</h1>
       <form class="toDoForm">
         <label for="nameInput">To Do: </label>
-        <input id="nameInput" type="text" value="">
+        <input id="nameInput" type="text" value=""><
         <label for="dueDateInput">Due Date</label>
         <input id="dueDateInput" type="text" value="">
         <label for="descriptionInput">Description</label>
         <input id="descriptionInput" type="text" value="">
+        <button id="toDoFormButton" type="submit" name="button">Add!</button>
       </form>
       <div class="row">
         <div class="col-md-3 col-sm-offset-3">
           <h3>List</h3>
+          <ul class="toDoList">
+          </ul>
         </div>
         <div class="col-md-3">
           <h3>Detail</h3>
+          <ul class="detailList">
+          </ul>
         </div>
       </div>
     </div>
